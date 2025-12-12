@@ -30,10 +30,11 @@ SECRET_KEY = '-xso*9s)+a&yfrnhor5!t7k-zygmh32fq+5=6dlbw33)vc2h23'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '127.0.0.1',
+    'boutique-ado1-7b1bab56d883.herokuapp.com',
     'localhost',
-    'boutique-ado1-7b1bab56d883.herokuapp.com/',
+    '127.0.0.1',
 ]
+
 
 
 # Application definition
