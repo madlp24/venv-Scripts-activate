@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '-xso*9s)+a&yfrnhor5!t7k-zygmh32fq+5=6dlbw33)vc2h23'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'boutique-ado1-7b1bab56d883.herokuapp.com',
@@ -58,6 +58,7 @@ INSTALLED_APPS = [
 
     #Other
     'crispy_forms',
+    'storages',
 ]
 
 MIDDLEWARE = [
